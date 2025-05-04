@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="public">
+    <system systemId="http://example.com/does-not-exist.dtd"
+            uri="fakehtml.dtd"/>
+    <uri name="http://example.com/modules/style.xsl"
+         uri="./style.xsl"/>
+    <uri name="http://example.com/text"
+         uri="catalog.xml"/>
+
+    <uri name="http://example.com/testfunc"
+         xmlns:rddl="http://www.rddl.org/"
+         rddl:purpose="https://www.iana.org/assignments/media-types/application/xquery"
+         uri="testfunc.xqy"/>
+</catalog>

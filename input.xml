@@ -1,0 +1,10 @@
+<!DOCTYPE html SYSTEM "http://example.com/does-not-exist.dtd" [
+        ]>
+<html>
+    <head>
+        <title>Some title</title>
+    </head>
+    <body>
+        <p>Hello, world.</p>
+    </body>
+</html>
