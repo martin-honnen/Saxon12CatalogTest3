@@ -14,6 +14,8 @@ public class Main {
 
         processor.setConfigurationProperty(Feature.TIMING, true);
 
+        System.out.println(processor.getSaxonEdition() + " " + processor.getSaxonProductVersion());
+
         String cwd = System.getProperty("user.dir");
         String datapath = cwd; //+ "/src/test/testdata/resolvers";
 
