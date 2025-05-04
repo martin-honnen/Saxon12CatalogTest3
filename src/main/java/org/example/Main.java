@@ -17,7 +17,10 @@ public class Main {
         String cwd = System.getProperty("user.dir");
         String datapath = cwd; //+ "/src/test/testdata/resolvers";
 
-        String catalog = datapath + "catalog.xml";
+        String catalog = Path.of(datapath ,"catalog.xml").toString();
+
+        System.out.println("Using catalog: " + catalog);
+
         processor.setCatalogFiles(catalog);
 
         InputSource docsrc = new InputSource(Path.of(cwd, "input.xml").toUri().toString());
