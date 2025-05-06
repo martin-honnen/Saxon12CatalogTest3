@@ -20,6 +20,11 @@
             <artifactId>Saxon-HE</artifactId>
             <version>12.5</version>
         </dependency>
+        <dependency>
+            <groupId>org.xmlresolver</groupId>
+            <artifactId>xmlresolver</artifactId>
+            <version>5.3.2</version>
+        </dependency>
     </dependencies>
 
 </project>
